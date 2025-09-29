@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device,initial-scale=1">
+		<!--Author name-->
+		<meta name="author" content="Alan Warthon">
+		<title>Alan Warthon | Personal Web Page | Bootstrap Version</title>
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+		<script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+			
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
+		
+	</head>
+	<body>
+		<!--This part shows the Name of the author and the Menu-->
+		<header class = "fixed-top">
+			<nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark" data-bs-theme="dark">
+			  <div class="container-fluid ">
+				<a class="navbar-brand" href="index.html">Alan Warthon</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				  <!--<span class="navbar-toggler-icon"></span>-->
+				  	Menu &#9776;
+				</button>
+				<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+				  <ul class="navbar-nav ">
+					<li class="nav-item">
+					  <a class="nav-link" href="#skills">Skills</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="#portfolio">Portfolio</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="#about">About</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="#cv">Curriculum Vitae</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="#contact">Contact</a>
+					</li>
+					
+				  </ul>
+				</div>
+			  </div>
+			</nav>
+		</header>
+		
+		<!--This part shows the main title and the main picture-->
+		<section id="showcase" class="min-vh-100 d-flex align-items-center d-flex justify-content-center">
+			
+			<div class="container text-center">
+				<div class="row ">
+					<h2>Alan Warthon</h2>
+					<h1 class="text-uppercase">Information & Computer Systems Student</h1>
+				</div>
+				<div class="row d-inline-flex p-2">
+					<button onclick="window.location.href='#skills';" type ="button" class="btn btn-outline-light btn-lg ">TELL ME MORE</button>
+				</div>
+				
+			</div>
+			
+		</section>
+		
+		<!--This part shows the skills-->
+		<section id="skills" class="min-vh-100">
+			<div class="container  pt-5  mt-3">
+				<div class="row pt-5 text-center">
+					<h2 class="text-uppercase fw-bold">skills</h2>
+					<p class="text-center">A work in progress as I complete my ICS diploma</p>
+				</div>
+				
+				<div class="row text-center mt-5">
+					<div class="col-sm-12 col-md-4">
+						<span class="fa-stack fa-2x">
+							<i class="fa-solid fa-circle fa-stack-2x"></i>
+							<i class="fa-solid fa-desktop fa-stack-1x fa-inverse"></i>
+						</span>
+						<h3 class="mt-4">Web Technologies</h3>
+						<p>A full range of skills that include HTML/CSS responsive web design, using tools like Sublime text
+						, Notepad++, Dreamweaver, Brackets, etc</p>
+					</div>
+					<div class="col-sm-12 col-md-4">
+						<span class="fa-stack fa-2x">
+							<i class="fa-solid fa-circle fa-stack-2x"></i>
+							<i class="fa-solid fa-network-wired fa-stack-1x fa-inverse"></i>
+						</span>
+						<h3 class="mt-4">Systems Administration</h3>
+						<p>Operating system admninstration including Windows and Linux client and sever management, firewall and 
+						network security, I also operate systems like Raspberry Pi and others.</p>
+					</div>
+					<div class="col-sm-12 col-md-4">
+						<span class="fa-stack fa-2x">
+							<i class="fa-solid fa-circle fa-stack-2x"></i>
+							<i class="fa-solid fa-mobile-screen-button fa-stack-1x fa-inverse"></i>
+						</span>
+						<h3 class="mt-4">Desktop and Mobile App Development</h3>
+						<p>A coding foundation buil on Java and C++ building small applications and development of IOS mobile applications
+						using Swit.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!--This part shows the portfolio-->
+		<section id="portfolio" class="min-vh-100 bg-secondary-subtle">
+			<div class="container pt-5  mt-5">
+				<div class="row mt-5 text-center">
+					<h2 class="text-uppercase fw-bold">Portfolio</h2>
+					<p class="text-center">A small sampling of some of the projects I've worked on as a student of the ICS program</p>
+				</div>
+				
+				<div class="row justify-content-center">
+				
+					<div class="card text-center m-2 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+						<a href="https://alan.118.ics.devnich.ca/lab-4/" class="text-decoration-none text-reset">
+							<img src="images/portfolio1.jpg" class="card-img-top" alt="Form HTML">
+							<div class="card-body">
+								<h3 class="card-title">HTML Forms</h3>
+								<p class="card-text">This form shows the use of the FORM tag in HTML5</p>
+							</div>
+						</a>
+					</div>
+					
+					<div class="card text-center m-2 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+						<a href="https://alan.118.ics.devnich.ca/lab-6/" class="text-decoration-none text-reset">
+							<img src="images/portfolio2.jpg" class="card-img-top" alt="Responsive website (bakery)">
+							<div class="card-body">
+								<h3 class="card-title">Responsive Website</h3>
+								<p class="card-text">Responsive page using HTML and CSS</p>
+							</div>
+						</a>
+					</div>
+
+					<div class="card text-center m-2 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+						<a href="https://scratch.mit.edu/projects/725084849" class="text-decoration-none text-reset">
+							<img src="images/portfolio3.jpg" class="card-img-top" alt="Scratch project">
+							<div class="card-body">
+								<h3 class="card-title">Scratch Game</h3>
+								<p class="card-text">Scratch project in progress (only a template)</p>
+							</div>
+						</a>
+					</div>
+
+					<div class="card text-center m-2 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+						<a href="https://alan.118.ics.devnich.ca/lab-1/lecture3.html" class="text-decoration-none text-reset">
+							<img src="images/portfolio4.jpg" class="card-img-top" alt="Hello World">
+							<div class="card-body">
+								<h3 class="card-title">Hello World!</h3>
+								<p class="card-text">First webpage developed in ICS program</p>
+							</div>
+						</a>
+					</div>
+
+					<div class="card text-center m-2 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+						<a href="https://alan.118.ics.devnich.ca/lab-2/" class="text-decoration-none text-reset">
+						<img src="images/portfolio5.jpg" class="card-img-top" alt="CV">
+						<div class="card-body">
+							<h3 class="card-title">CV</h3>
+							<p class="card-text">Personal CV in HTML without CSS</p>
+						</div>
+						</a>
+					</div>
+
+					<div class="card text-center m-2 shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+						<a href="https://photos.google.com/search/_tra_/photo/AF1QipOqNRTTK3tkkQGKNxKFOvKqLY_XqNTGX_Kcnw1L" class="text-decoration-none text-reset">
+						<img src="images/portfolio6.jpg" class="card-img-top" alt="Design in Photoshop">
+						<div class="card-body">
+							<h3 class="card-title">Photo Poster</h3>
+							<p class="card-text">Photoshop Project from School</p>
+						</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!--This part shows the profesional information in time-->
+		<section id="about" class="min-vh-100">
+			<div class="container mt-5 pt-5">
+			
+				<div class="row pt-3 text-center">
+					<h2 class="text-uppercase fw-bold">About</h2>
+					<p>Learn more about me, where I come from and what drives me.</p>
+				</div>
+				
+				<div class="row">
+					<div class="col-4 text-center order-md-2 imageContainer" >
+						<img class="rounded-circle" src="images/about1.jpg" alt="image of network by Thomas Jensen from Unsplash">
+					</div>
+					<div class="col-8 col-md-4 order-md-1 text-md-end" >
+						<h4 class="fs-6">2002 - 2003</h4>
+						<h4 class="fs-6">CISCO NETWORKING ACADEMY</h4>
+						<p>I took the network and configuration course certified by the company CISCO Systems, at the University Technological of Peru (UTP)</p>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-4 text-center offset-md-4 imageContainer" >
+						<img class="rounded-circle" src="images/about2.jpg" alt="image of design by Neven Krcmarek from Unsplash">
+					</div>
+					<div class="col-8 col-md-4" >
+						<h4 class="fs-6">2003-2004</h4>
+						<h4 class="fs-6">Centro Nikke</h4>
+						<p>I took the graphic design and vector drawing course, using Corel Draw and Photoshop, learning about vector drawing and color theory.</p>
+					</div>
+					
+				</div>
+				
+				<div class="row">
+					<div class="col-4 text-center order-md-2 imageContainer">
+						<img class="rounded-circle" src="images/about3.jpg" alt="image of tower control by apDfrawy from Unsplash">
+					</div>
+					<div class="col-8 col-md-4 order-md-1 text-md-end">
+						<h4 class="fs-6">2006-2008</h4>
+						<h4 class="fs-6">CORPAC</h4>
+						<p>I took the basic air traffic controller course, with 1 year of theory and 6 months of simulator. It was delivered with ICAO textbooks</p>
+					</div>
+					
+				</div>
+				
+				<div class="row">
+					<div class="col-4 text-center offset-md-4 imageContainer">
+						<img class="rounded-circle" src="images/alancta.jpg" alt="image of an air traffic controller">
+					</div>
+					<div class="col-8 col-md-4">
+						<h4 class="fs-6">2008-2022</h4>
+						<h4 class="fs-6">CORPAC</h4>
+						<p>I have worked as an ATC at the Jorge Chavez 
+						International Airport, from airfield controller to radarist, the highest level in the career.</p>
+					</div>
+					
+				</div>
+				
+				<div class="row">
+					<div class="col-4 text-center order-md-2 imageContainer">
+						<img class="rounded-circle" src="images/about5.jpg" alt="image of the author">
+					</div>
+					<div class="col-8 col-md-4 order-md-1 text-md-end">
+						<h4 class="fs-6">2023-now</h4>
+						<h4 class="fs-6">CAMOSUN</h4>
+						<p>Student at Camosun in the IT program, with many challenges ahead like became a great web developer and have my own business in the future</p>
+					</div>
+					
+				</div>
+				
+				<div class="row text-center">
+					<div class="col-4 offset-md-4">
+						<img id = "next_hire" class="rounded-circle" src="images/next_hire.png" alt="image of next hire">
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		
+		<!--This part shows the resume-->
+		<section id="cv" class="min-vh-100 pt-5 mt-5">
+			<div class="container pt-3 ">
+				<div class="row text-center">
+					<h2 class="text-uppercase fw-bold">Curriculum Vitae</h2>
+					<p>Please find my most recent CV below</p>
+				</div>
+				<div class="row">
+					<div class="col-12 text-center col-md-4">
+						<img class="rounded-circle" src="images/alancta2.jpg" alt="picture of the author">
+						<h2>Alan Warthon</h2>
+						<ul class="list-inline">
+							<li>alanwarthon@gmail.com</li>
+							<li>437 436 5480</li>
+							<li>Victoria, BC</li>
+						</ul>
+						<div class="socialMedia">
+							<a href="https://www.facebook.com/atco2018"><span class="fa-stack fa-2x">
+									<i class="fa-solid fa-square fa-stack-2x"></i>
+									<i class="fa-brands fa-facebook-f fa-stack-1x fa-inverse"></i>
+							</span></a>
+							
+							<a href="https://www.instagram.com/alanwarthon/?hl=es-la"><span class="fa-stack fa-2x">
+									<i class="fa-solid fa-square fa-stack-2x"></i>
+									<i class="fa-brands fa-instagram fa-stack-1x fa-inverse"></i>
+							</span></a>
+							
+							<a href="https://twitter.com/warthon2004"><span class="fa-stack fa-2x">
+									<i class="fa-solid fa-square fa-stack-2x"></i>
+									<i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+							</span></a>
+						</div>
+						<h5>Technical Skills</h5>
+						<ul class="list-inline">
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>Java Script</li>
+							<li>Linux</li>
+							<li>Java NetBeans</li>
+							<li>Dreamweaver</li>
+							<li>Ilustrator</li>
+							<li>My SQL</li>
+						</ul>
+						
+						<h5>Personal Interest</h5>
+						<ul class="list-inline">
+							<li>Swimming</li>
+							<li>Cycling</li>
+							<li>Running</li>
+							<li>Photography</li>
+							<li>Cooking</li>
+						</ul>
+					</div>
+					
+					<div class="col-12 col-md-8">
+						<h3>Profile</h3>
+						<hr>
+						<p>I am an aspiring web application developer with a long history of aviation industry as an Air Traffic Controller
+						I have 15 years in air traffic controller field, however my current
+						focus is to became a full-stack web application developer</p>
+						
+						<h3>Education</h3>
+						<hr>
+						<dl>
+							<dt>Current</dt>
+							<dd>Camosun College - Interurban Campus</dd>
+							<dd>Information and Computer Systems Technology</dd>
+						</dl>
+						
+						<h3>Additional Courses & Training</h3>
+						<hr>
+						<dl>
+							<dt>September 2015</dt>
+							<dd>Survelliance Radar Control Course</dd>
+							<dd>Basic Nutrition on-line course</dd>
+						</dl>
+						<dl>
+							<dt>February 2006</dt>
+							<dd>Air Traffic Control Basic Course</dd>
+							<dd>Basic Photography Course</dd>
+						</dl>
+						
+						<h3>Professional Experience</h3>
+						<hr>
+						<dl>
+							<dt>February 2008 - December 2022</dt>
+							<dd>Radar Controller</dd>
+							<dd>Aerodrome Controller</dd>
+						</dl>
+						<dl>
+							<dt>March 2006 - January 2006</dt>
+							<dd>Aeronautical Specialist</dd>
+							<dd>Aviation Instructor</dd>
+						</dl>
+						
+						<h3>Accomplishments</h3>
+						<hr>
+						<ul>
+							<li>Surveillance Air Controller License</li>
+							<li>On-the-job instructor for future air traffic controllers</li>
+							<li>Instructor of theory and simulator in aerodrome control</li>
+						</ul>
+					
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		
+		<!--This part shows a form to contact the author-->
+		<section id="contact" class="min-vh-100 pt-5 mt-5 ">
+			<div class="row text-center pt-3 text-light mt-md-5">
+				<h2 class="text-uppercase fw-bold">Contact Me</h2>
+				<h3 class="fs-5">Interested if I'd be the right fit for your team? Fill in this form and I will respond within 24-48 hours</h3>
+			</div>
+			<form class="mt-3 ms-3 me-3 mt-md-5" id="contact-me" action="https://118.ics.devnich.ca/submit-form/" method="post">
+				<div class="row mt-md-5">
+					<div class="col-md-6">
+						<div class="form-floating mb-3">
+							<input type="text" class="form-control" id="floatingInput1" placeholder="Your Name">
+							<label for="floatingInput1" class="ms-2">Your Name</label>
+						</div>
+						
+						<div class="form-floating mb-3">
+							<input type="email" class="form-control" id="floatingInput2" placeholder="Your Email">
+							<label for="floatingInput2" class="ms-2">Your Email</label>
+						</div>
+						
+						<div class="form-floating mb-3">
+							<input type="tel" class="form-control" id="floatingInput3" placeholder="Your Phone">
+							<label for="floatingInput3" class="ms-2">Your Phone</label>
+						</div>
+					</div>
+					<div class="col-md-6">
+									
+						<div class="form-floating mb-3">
+							<textarea class="form-control" placeholder="Your Message" id="floatingTextarea2" style="height: 200px"></textarea>
+							<label for="floatingTextarea2" class="ms-2">Your Message</label>
+						</div>
+					</div>
+				</div>
+				<div class="row d-md-none ">
+					<div class="col-6 offset-3 text-center">
+						<button type="submit" class="btn btn-primary text-uppercase">Send Message</button>
+					</div>
+				</div>
+				<div class="row d-none d-md-block">
+					<div class="col-6 offset-3 text-center">
+						<button type="submit" class="btn btn-primary btn-lg text-uppercase">Send Message</button>
+					</div>
+				</div>
+			</form>
+			
+		</section>
+		
+		<!--This part shows the author of the site-->
+		
+		<footer>
+			<div class="row align-items-center">
+				<div class="col-12 mt-2 col-md-4 text-center">
+					<p>Copyright &copy; 2023 - Alan Warthon</p> 
+				</div>
+				<div class="col-12 socialMedia text-center mb-3 col-md-4 offset-md-4 mt-md-2 pe-md-0">
+					<a href="https://www.facebook.com/atco2018"><span class="fa-stack fa-2x">
+						<i class="fa-solid fa-square fa-stack-2x"></i>
+						<i class="fa-brands fa-facebook-f fa-stack-1x fa-inverse"></i>
+					</span></a>
+					
+					<a href="https://www.instagram.com/alanwarthon/?hl=es-la"><span class="fa-stack fa-2x">
+						<i class="fa-solid fa-square fa-stack-2x"></i>
+						<i class="fa-brands fa-instagram fa-stack-1x fa-inverse"></i>
+					</span></a>
+								
+					<a href="https://twitter.com/warthon2004"><span class="fa-stack fa-2x">
+						<i class="fa-solid fa-square fa-stack-2x"></i>
+						<i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+					</span></a>
+				</div>
+			</div>
+			<!-- R E F E R E N C E S  picture from the ABOUT section
+			
+			<p>Photo by
+				<a href="https://unsplash.com/ja/@thomasjsn">Thomas Jensen</a>
+				on >a href="https://unsplash.com/es/fotos/ISG-rUel0Uw">Unsplash</a>
+			</p>
+			
+			<p>Photo by
+				<a href="https://unsplash.com/@nevenkrcmarek">Neven Krcmarek</a>
+				on >a href="https://unsplash.com/es/fotos/V4EOZj7g1gw">Unsplash</a>
+			</p>
+			
+			<p>Photo by
+				<a href="https://unsplash.com/@capdfrawy">CapDfrawy</a>
+				on >a href="https://unsplash.com/es/fotos/VbIfYnbqOIY">Unsplash</a>
+			</p>
+			-->
+		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+		
+		
+	</body>
+
+</html>

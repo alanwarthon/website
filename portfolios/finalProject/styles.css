@@ -1,0 +1,106 @@
+body {
+  background-color: #d84c15;
+}
+
+#navbarNav a{
+  
+  font-size: 30px;
+}
+
+#navbarNav a:hover{
+  color:#d84c15;
+  
+}
+
+.spacerow{
+  
+  height: 150px;
+}
+.carruselrow{
+ 
+}
+#carouselExample img{
+  height: 600px;
+}
+#btnOrder{
+  width: 100%;
+}
+
+#about img{
+  width: 100%;
+}
+#about .row{
+  color:white;
+  justify-content: center;
+  text-align: center;
+}
+#about_text{
+  font-size: 30px;
+}
+
+#menu .row{
+  color:white;
+  justify-content: center;
+  text-align: center;
+}
+#menuProducts img{
+  width: 200px;
+  height: 150px;
+}
+#menuProducts .card-title{
+  color:black;
+}
+#menuProducts .card-text{
+  color:grey;
+}
+#menuProducts .col{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+#gallery img{
+  width: 400px;
+  height: 400px;
+}
+#gallery .galleryphoto{
+  
+  justify-content: center;
+}
+#contact .col{
+  
+  justify-content: center;
+}
+#contact img{
+  width:100%;
+
+}
+#contact h1{
+  color:white;
+  font-size: 30px;
+  font-family: sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#contact h3{
+  color:beige;
+  font-size:25px;
+}
+#menu_products h1{
+  color:white
+}
+#menu_products .btnCart{
+  display: flex;
+  justify-content: right;
+  padding-right: 30px;
+
+}
+#vegancake{
+  width:400px;
+  height: 250px;
+}
+#navbar .dropdown-item{
+  font-size: 14px;
+  color:grey;
+}
+.trash{
+  color:red;
+}

@@ -1,0 +1,28 @@
+.container{
+    width:100%;
+   /* display: flex;*/
+    align-items: center;
+    justify-content: center;
+
+ 
+
+}
+#productsRow{
+    padding: 30px;
+
+
+    
+} 
+.card{
+    margin: 10px;
+    /*width: 1000px;*/
+    height: 880px;
+}
+
+#table_cart{
+    font-size: 12px;
+}
+#btnf1{
+    background-color: blue;
+    color: white;
+}

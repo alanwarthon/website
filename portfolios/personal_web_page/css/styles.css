@@ -1,0 +1,110 @@
+:root{
+/* --------------Variables-----------------*/
+	--brandColor: white;
+	--brandColorHover: #1aedea;
+	--backgroundColor: #032f61;
+	--backgroundColorAbout: #E2E5D8;
+	--iconColor1: #1aedea;
+	--iconColor2: blue;
+	--mainPicture:url('../images/fondo_desktop.png');
+	--contactPicture:url('../images/contactBackground.jpg');
+}
+/*Set a font size for the entire webpage*/
+html{
+	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
+}
+/*-----------------------------CSS Styles customize for the HEADER ------------------------------*/
+/*Background color of the Navigation Bar*/
+.navbar-brand{
+	color: var(--brandColor);
+	transition: all 2s;
+}
+/*Brand color when the mouse is hover*/
+.navbar-brand:hover{
+	color: var(--brandColorHover);
+}
+/*Links color from the menu when the mouse is hover*/
+.nav-link:hover{
+	color:var(--brandColorHover);
+}
+/*-----------------------------CSS Styles customize for the SHOWCASE section ------------------------------*/
+#showcase{
+	background-image:var(--mainPicture);
+	background-repeat: no-repeat;
+	background-position:left;
+	background-size:700px;
+	background-attachment:fixed;
+	background-color:var(--backgroundColor);
+	color:var(--brandColor);
+}
+/*-----------------------------CSS Styles customize for the SKILLS section ------------------------------*/
+/*Icons form skills section*/
+#skills .fa-stack{
+	color:var(--iconColor1);
+	font-size:40px;
+	position:relative;
+	z-index:-1;
+}
+#skills p{
+	text-align: justify;
+}
+/*-----------------------------CSS Styles customize for the PORTFOLIO section ------------------------------*/
+#portfolio img{
+	width:	200px;
+	height: 200px;
+}
+#portfolio p{
+	text-align: justify;
+}
+/*-----------------------------CSS Styles customize for the ABOUT section ------------------------------*/
+#about img{
+	width:	100px;
+	height: 100px;
+	padding:2%;
+	background-color:var(--backgroundColorAbout);
+}
+.imageContainer{
+	position:relative;
+}
+.imageContainer::before{
+	width:3px;
+	height:100%;
+	background-color:var(--backgroundColorAbout);
+	content:' ';
+	position:absolute;
+	top:0;
+	left:50%;
+	z-index:-1;
+}
+/*-----------------------------CSS Styles customize for the CV section ------------------------------*/
+#cv img{
+	width:200px;
+	height:200px;
+	padding:2%;
+	background-color:var(--backgroundColorAbout);
+}
+#cv .fa-stack{
+	color:var(--iconColor2);
+	font-size:20px;
+	position:relative;
+	z-index:-1;
+}
+#cv dd{
+	margin-left:20px;
+}
+/*-----------------------------CSS Styles customize for the CONTACT section ------------------------------*/
+#contact{
+	background-image:var(--contactPicture);
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+}
+/*-----------------------------CSS Styles customize for the FOOTER section ------------------------------*/
+footer .fa-stack{
+	color:var(--iconColor2);
+	font-size:20px;
+	position:relative;
+	z-index:-1;
+}

@@ -1,0 +1,462 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Empire Donuts</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" 
+        crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" media="all" href="styles.css">
+</head>
+<body>
+  <header class = "fixed-top">
+    <!--Navigation bar-->
+      <nav  class="navbar navbar-expand-lg " style="background-color: rgb(255, 255, 255);">
+        <div id="navbar" class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.jpg" width="150" alt="logo from the website">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            
+             <!--<span class="navbar-toggler-icon"></span>-->
+        Menu &#9776;
+          </button>
+          <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">&nbsp;Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#about">About me&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu">Menu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+   </header>
+
+  <section id="carrusel">
+    <div class="container-fluid">
+      <div class="row spacerow">
+        
+      </div>
+      <div class="row carruselrow">
+        <div class="col">
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/menu.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/menu2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/menu3.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          
+        </div>
+        
+      </div>
+      <div class="row pt-3">
+        <div class="col-4"></div>
+        <div class="col-4">
+          <button id="btnOrder" type="button" class="btn btn-warning">ORDER ONLINE</button>
+        </div>
+        <div class="col-4"></div>
+        
+      </div>
+    </div>
+  </section>
+  
+  <section id="about" class="min-vh-100 d-flex align-items-center">
+    <div class="container-fluid">
+      <div class="row">
+        <h1>ABOUT ME</h1>
+      </div>
+      <div class="row pt-5">
+        <div class="col-2">
+          <img src="images/about.png" alt="">
+        </div>
+        <div class="col-8 justify-content-center">
+          <p id="about_text">
+            We are a family business with 8 years in Victoria, all of this started like a dream and 
+            thanks to the good reception of our products made with a lot of love and quality, we are 
+            your best option when you want to indulge yourself a little with our delicious donuts.
+            We have a home delivery service restricted by time and distance from our main location, 
+            every day we grow more and very soon we will surprise you with new recipes.
+            Visit us at Empire Donuts, you will love it!
+          </p>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <section id="menu" class="min-vh-100 d-flex align-items-center pt-5 mt-5">
+    <div class="container-fluid pt-5 mt-5">
+      <div class="row">
+        <h1>
+          Menu
+        </h1>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h2>Cakes</h2>
+          <p>We have two different sizes:</p>
+          <p>6" (Serves 6 to 8 people) <strong>$45</strong></p>
+          <p>8" (Serves 8 to 12 people) <strong>$65</strong></p>
+           
+        </div>
+        <div class="col">
+          <h2>Pies</h2>
+          <p>All of our Pies are 9" in size and serve 6 to 8 people.</p>
+        </div>
+      </div>
+      <div id="menuProducts" class="row">
+        <div class="col-6">
+          <div class="row">
+            <!--Cake 01-->
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="images/chocolate_butter-removebg-preview.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Chocolate Peanut Butter</h5>
+                    <p class="card-text">
+                      Chocolate Cake layers with Peanut Butter Icing, Peanut Butter Buttercream and 
+                      Chocolate Ganache topped with Reeses Pieces and Peanut Butter Cups
+                    </p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of cake-->
+          </div>
+          <div class="row">
+            <!--Cake 02-->
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="images/earl_vanilla-removebg-preview.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Earl Grey Vanilla</h5>
+                    <p class="card-text">
+                      Vanilla Cake layers with Earl Grey Buttercream
+
+                    </p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of cake-->
+          </div>
+          <div class="row">
+            <!--Cake 03-->
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="images/carrot_cake-removebg-preview.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Carrot and Fig Cake </h5>
+                    <p class="card-text">
+                      Carrot and Fig Cake layers with White Chocolate, Cream Cheese Buttercream
+
+                    </p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of cake-->
+          </div>
+          <div class="row">
+            <!--Cake 04-->
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="images/black_forest-removebg-preview.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Black Forest Cake</h5>
+                    <p class="card-text">
+                      Chocolate Cake layers with Cherry Compote, Vanilla Buttercream and Chocolate Ganache
+                    </p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of cake-->
+          </div>
+          <div class="row">
+            <!--Cake 05-->
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="images/vegan.png" class="img-fluid rounded-start" alt="vegan cake">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Vegan German Chocolate Cake</h5>
+                    <p class="card-text">
+                      Vegan dark chocolate layers with coconut milk caramel, pecans and toasted coconut filling coated in dark chocolate buttercream
+                    </p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of cake-->
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="row">
+            <!--Pie 01-->
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="images/fruit_pies01-removebg-preview.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Fruit Pies</h5>
+                    <p class="card-text">
+                      Choose from Peach, Cherry, blueberry or Strawberry Rhubarb Pie. Price: <strong>$25</strong>
+                    </p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of cake-->
+          </div>
+          <div class="row">
+            <!--Pie 02-->
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="images/maple_pies01-removebg-preview.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Maple Brown Butter Pecan Pie</h5>
+                    <p class="card-text">
+                      light, flaky crust with a generous amount of pecans and a ooey, 
+                      gooey pure maple syrup and brown butter filling.Price: <strong>$25</strong>
+
+                    </p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of cake-->
+          </div>
+          <div class="row">
+            <!--Pie 03-->
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="images/vanilla_pies01-removebg-preview.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Vanilla Bean Apple Pie</h5>
+                    <p class="card-text">
+                      Pure vanilla bean and fresh apples inside buttery, flaky pastry. 
+                      For those who believe cinnamon does not do justice to  our tasty B.C apples. Price:<strong>​$25</strong>
+                    </p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of cake-->
+          </div>
+          
+          
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="min-vh-100 pt-5 mt-5 ">
+    
+    <div class="container galleryphoto pt-5">
+      <div class="row pb-5">
+        <div class="col-4">
+          <img src="images/1.png" alt="">
+        </div>
+        <div class="col-4">
+          <img src="images/2.png" alt="">
+        </div>
+        <div class="col-4">
+          <img src="images/3.png" alt="">
+        </div>
+      </div>
+
+      <div class="row pb-5">
+        <div class="col-4">
+          <img src="images/4.png" alt="">
+        </div>
+        <div class="col-4">
+          <img src="images/5.png" alt="">
+        </div>
+        <div class="col-4">
+          <img src="images/6.png" alt="">
+        </div>
+      </div>
+
+      <div class="row pb-5">
+        <div class="col-4">
+          <img src="images/7.png" alt="">
+        </div>
+        <div class="col-4">
+          <img src="images/8.png" alt="">
+        </div>
+        <div class="col-4">
+          <img src="images/9.png" alt="">
+        </div>
+      </div>
+
+      <div class="row pb-5">
+        <div class="col-4">
+          <img src="images/10.png" alt="">
+        </div>
+        <div class="col-4">
+          <img src="images/11.png" alt="">
+        </div>
+        <div class="col-4">
+          <img src="images/12.png" alt="">
+        </div>
+      </div>
+
+      <div class="row pb-5">
+        <div class="col-4">
+          <img src="images/13.png" alt="">
+        </div>
+        <div class="col-4">
+          <img src="images/14.png" alt="">
+        </div>
+        <div class="col-4">
+          <img src="images/15.png" alt="">
+        </div>
+      </div>
+    
+    </div>
+    
+  </section>
+
+  <section id="contact" class="min-vh-100 pt-5 mt-5">
+    <div class="container-fluid pt-5 mt-5">
+      <div class="row">
+        <div class="col-3">
+          <img src="images/contact-removebg-preview.png">
+        </div>
+        <div class="col">
+          <h1>Contact us:</h1>
+          <h3><strong>call 250 - 888 1947</strong> to reach the View Street Shop or</h3>
+          <h3><strong>call 250 - 590 3865</strong> to reach the Cook Street Shop</h3>
+          <section id="contact">
+            <div class="row text-center pt-3 text-light mt-md-5">
+              <h2 class="text-uppercase fw-bold">Send me a Message</h2>
+             
+            </div>
+            <form class="mt-3 ms-3 me-3 mt-md-5" id="contact-me" action="https://118.ics.devnich.ca/submit-form/" method="post">
+              <div class="row mt-md-5">
+                <div class="col-md-6">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput1" placeholder="Your Name">
+                    <label for="floatingInput1" class="ms-2">Your Name</label>
+                  </div>
+                  
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput2" placeholder="Your Email">
+                    <label for="floatingInput2" class="ms-2">Your Email</label>
+                  </div>
+                  
+                  <div class="form-floating mb-3">
+                    <input type="tel" class="form-control" id="floatingInput3" placeholder="Your Phone">
+                    <label for="floatingInput3" class="ms-2">Your Phone</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                        
+                  <div class="form-floating mb-3">
+                    <textarea class="form-control" placeholder="Your Message" id="floatingTextarea2" style="height: 200px"></textarea>
+                    <label for="floatingTextarea2" class="ms-2">Your Message</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row d-md-none ">
+                <div class="col-6 offset-3 text-center">
+                  <button type="submit" class="btn btn-primary text-uppercase">Send Message</button>
+                </div>
+              </div>
+              <div class="row d-none d-md-block">
+                <div class="col-6 offset-3 text-center">
+                  <button type="submit" class="btn btn-warning btn-lg text-uppercase">Send Message</button>
+                </div>
+              </div>
+            </form>
+            
+          </section>
+        </div>
+        <div class="col-3">
+          <img src="images/owner.png">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+  </script>
+  <script>
+    // Espera a que el documento se cargue completamente
+    document.addEventListener('DOMContentLoaded', function() {
+      // Obtiene el botón por su ID
+      var btnOrder = document.getElementById('btnOrder');
+    
+      // Añade un evento 'click' al botón
+      btnOrder.addEventListener('click', function() {
+        // Redirecciona al usuario a 'order.html'
+        window.location.href = 'order.html';
+      });
+    });
+    </script>
+
+</body>
+</html>
